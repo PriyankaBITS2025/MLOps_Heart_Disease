@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# MLflow generated data
+mlruns/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
