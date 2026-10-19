@@ -5,9 +5,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-PROJECT_DIR = (
-    Path.home() / "workspace" / "MLOps_Heart_Disease"
-)
+PROJECT_DIR = Path(__file__).resolve().parents[1]
 
 DATASET_PATH = (
     PROJECT_DIR / "data" / "raw" / "processed.cleveland.data"
